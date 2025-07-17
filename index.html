@@ -655,12 +655,24 @@
     gap: 0.8rem;
     box-shadow: 0 -5px 15px rgba(0,0,0,0.05);
 ">
-    <div style="display: flex; align-items: center; gap: 0.8rem; font-weight: 500;">
-        <i class="fas fa-heart" style="color:var(--primary-color);"></i>
-        <span data-en="Made with love by" data-ar="صُنع بكل حب بواسطة">Made with love by</span>
-        <strong>Ahmed Taha Muhammed Taha</strong>
-        <i class="fas fa-heart-circle-check" style="color:var(--accent-gold);"></i>
-    </div>
+   <div style="display: flex; align-items: center; gap: 0.8rem; font-weight: 500; font-family: 'Poppins', sans-serif;">
+    <i class="fas fa-heart" style="color: var(--primary-color); transition: transform 0.3s ease;"></i>
+    <span data-en="Made with love by" data-ar="صُنع بكل حب بواسطة">Made with love by</span>
+    
+    <a href="https://wa.me/201113795716" target="_blank" style="
+        color: var(--primary-color); 
+        font-weight: bold; 
+        text-decoration: none; 
+        position: relative; 
+        transition: all 0.3s ease;
+    " 
+    onmouseover="this.style.color='var(--accent-gold)'; this.style.transform='scale(1.05)';"
+    onmouseout="this.style.color='var(--primary-color)'; this.style.transform='scale(1)';">
+        Ahmed Taha Muhammed Taha
+    </a>
+    
+    <i class="fas fa-heart-circle-check" style="color: var(--accent-gold); transition: transform 0.3s ease;"></i>
+</div>
     <div style="font-size: 0.9rem; color: #888;">
         <i class="fas fa-ring" style="margin: 0 6px;"></i>
         <i class="fas fa-dove" style="margin: 0 6px;"></i>
